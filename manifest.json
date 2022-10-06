@@ -1,0 +1,19 @@
+{
+    "name": "MarsBlocker",
+    "version": "1.1",
+    "description": "The adblocker for Chrome, by MarsStudios",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["main.js"]
+    },
+    "icons": {
+        "16": "assets/logo_16x16.png",
+        "48": "assets/logo_48x48.png",
+        "128": "assets/logo_128x128.png"
+    },
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "MarsBlocker"
+    },
+    "manifest_version": 2
+}
